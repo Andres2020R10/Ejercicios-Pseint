@@ -1,0 +1,13 @@
+Proceso Total_Unidades_Productos
+    Definir p1, p2, p3, u1, u2, u3, total, total_pagar Como Real
+    Escribir "Ingrese unidades y precio de producto 1:"
+    Leer u1, p1
+    Escribir "Ingrese unidades y precio de producto 2:"
+    Leer u2, p2
+    Escribir "Ingrese unidades y precio de producto 3:"
+    Leer u3, p3
+    total_pagar <- (u1*p1) + (u2*p2) + (u3*p3)
+    total <- u1 + u2 + u3
+    Escribir "Unidades totales: ", total
+    Escribir "Total a pagar: ", total_pagar
+FinProceso
