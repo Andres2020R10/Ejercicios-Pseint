@@ -1,0 +1,9 @@
+Proceso IMC_2_Personas
+    Definir peso, altura, imc, i Como Real
+    Para i <- 1 Hasta 2 Con Paso 1 Hacer
+        Escribir "Ingrese el peso y la altura de la persona ", i, ":"
+        Leer peso, altura
+        imc <- peso / (altura * altura)
+        Escribir "El IMC de la persona ", i, " es: ", imc
+    FinPara
+FinProceso
