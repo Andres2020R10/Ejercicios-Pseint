@@ -1,0 +1,10 @@
+Proceso Total_Ventas_Semana
+    Definir dia, total, venta Como Real
+    total <- 0
+    Para dia <- 1 Hasta 7 Con Paso 1 Hacer
+        Escribir "Ingrese la venta del día ", dia, ":"
+        Leer venta
+        total <- total + venta
+    FinPara
+    Escribir "El total de ventas de la semana es: ", total
+FinProceso
