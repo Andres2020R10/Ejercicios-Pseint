@@ -1,0 +1,9 @@
+Proceso Descuento_Compra
+    Definir compra, descuento, precio_final Como Real
+    Escribir "Ingrese el valor de la compra:"
+    Leer compra
+    descuento <- compra * 0.1
+    precio_final <- compra - descuento
+    Escribir "Descuento aplicado: ", descuento
+    Escribir "Precio final: ", precio_final
+FinProceso
