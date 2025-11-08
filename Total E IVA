@@ -1,0 +1,10 @@
+Proceso Total_y_IVA
+    Definir precio, cantidad, total, iva Como Real
+    Escribir "Ingrese el precio unitario y la cantidad:"
+    Leer precio, cantidad
+    total <- precio * cantidad
+    iva <- total * 0.19
+    Escribir "El total sin IVA es: ", total
+    Escribir "El IVA es: ", iva
+    Escribir "El total con IVA es: ", total + iva
+FinProceso
