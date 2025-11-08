@@ -1,0 +1,7 @@
+Proceso Area_Rectangulo
+    Definir base, altura, area Como Real
+    Escribir "Ingrese la base y la altura del rectángulo:"
+    Leer base, altura
+    area <- base * altura
+    Escribir "El área del rectángulo es: ", area
+FinProceso
