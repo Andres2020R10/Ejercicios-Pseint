@@ -1,0 +1,14 @@
+Proceso Calorias_Semana
+    Definir dia, total_dia, total_semana, comida, i Como Real
+    total_semana <- 0
+    Para dia <- 1 Hasta 7 Con Paso 1 Hacer
+        total_dia <- 0
+        Para i <- 1 Hasta 3 Con Paso 1 Hacer
+            Escribir "Ingrese calorías de la comida ", i, " del día ", dia, ":"
+            Leer comida
+            total_dia <- total_dia + comida
+        FinPara
+        total_semana <- total_semana + total_dia
+    FinPara
+    Escribir "El total de calorías de la semana es: ", total_semana
+FinProceso
