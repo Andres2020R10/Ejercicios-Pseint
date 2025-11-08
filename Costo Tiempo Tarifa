@@ -1,0 +1,7 @@
+Proceso Costo_Tiempo_Tarifa
+    Definir tiempo, tarifa, total Como Real
+    Escribir "Ingrese el tiempo y la tarifa por hora:"
+    Leer tiempo, tarifa
+    total <- tiempo * tarifa
+    Escribir "El costo total es: ", total
+FinProceso
