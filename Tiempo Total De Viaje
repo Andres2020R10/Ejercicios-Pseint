@@ -1,0 +1,7 @@
+Proceso Tiempo_Total_Viaje
+    Definir t1, t2, t3, total Como Real
+    Escribir "Ingrese los tres tiempos parciales del viaje:"
+    Leer t1, t2, t3
+    total <- t1 + t2 + t3
+    Escribir "El tiempo total de viaje es: ", total
+FinProceso
