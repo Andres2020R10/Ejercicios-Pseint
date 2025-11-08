@@ -1,0 +1,7 @@
+Proceso Sumar_5_Numeros
+    Definir n1, n2, n3, n4, n5, suma Como Entero
+    Escribir "Ingrese cinco números:"
+    Leer n1, n2, n3, n4, n5
+    suma <- n1 + n2 + n3 + n4 + n5
+    Escribir "La suma de los números es: ", suma
+FinProceso
