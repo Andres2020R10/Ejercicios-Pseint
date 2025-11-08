@@ -1,0 +1,7 @@
+Proceso Total_Servicios
+    Definir s1, s2, s3, total Como Real
+    Escribir "Ingrese los consumos de los tres servicios:"
+    Leer s1, s2, s3
+    total <- s1 + s2 + s3
+    Escribir "El total a pagar por los servicios es: ", total
+FinProceso
