@@ -1,0 +1,7 @@
+Proceso Ganancia_Neta
+    Definir ingresos, gastos, ganancia Como Real
+    Escribir "Ingrese los ingresos y los gastos:"
+    Leer ingresos, gastos
+    ganancia <- ingresos - gastos
+    Escribir "La ganancia neta es: ", ganancia
+FinProceso
